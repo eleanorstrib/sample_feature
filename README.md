@@ -17,9 +17,15 @@ Dwayne is a Project Manager in a 100 person tech company.  They use JIRA, but Dw
 Aarti works in a small tech startup and often needs to step in to write issues, and keep the other three developers on track so that she can report back to the management team on their progress.  They can't really afford an enterprise solution like JIRA, and everyone loves Trello, but it's used more for roadmaps and longer term planning than for projects in flight, since most issue creation, version control and revisions are done by developers in Github.  
 
 
-
 ###Business case and measurement
-This feature is likely not a huge revenue driver in the near term, but it fulfills an important strategic objective: making Github a stickier platform with higher switching costs.
+This feature is likely not a huge revenue driver in the near term, but it fulfills an important strategic objective: making Github a stickier platform with higher switching costs.  
+
+Measurement could include:
+- Feature use: Number of issues where at least one estimate is made, reviewing changes over a 3 month timeframe
+- Authorization revocation for alternative services: Number of accounts where alternative service auth is revoked over a 3 month period, compared to previous 3 months
+- User feedback: Analyze sentiment of feedback on social media and support channels for this particular feature over a 3 month period, determine if trend is postive or flat
+
+More detailed reporting post-MVP a big value prop of other services (see "Alternatives" below), could be added for a nominal fee, while eliminating the need to use multiple services and simplifying the workflow for users.  The reporting might also drive more non-developer users onto Github and require organizations to purchase more expensive plans.
 
 ###Alternatives
 There are a couple of alternative services that do offer a way to enter an estimate:
@@ -30,11 +36,12 @@ _ZenHub_
 Zenhub is a similar product that, like Waffle, incorporates better planning tools, as well as enabling users to add estimates, in a similar way.
 
 ###Proposed solution
-Based on these use cases, the functionality will include:
+Based on these use cases, the MVP functionality will include:
 - Dedicated field for developers (all people with access to the repo) to enter an estimate for the issue 
 - Attribution of each estimate to a developer
 - High, low and average estimate data for each issue and the project
-- Ability of the github admin to set estimate values (story points, t-shirt sizes, etc) for the project as well as a repo default
-- Basic reporting (for a small fee)
+- Basic high level reporting on issue estimates vs completion times
+
+Issues corresponding to this functionality can be found in this project.
 
 
