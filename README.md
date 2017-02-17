@@ -29,6 +29,7 @@ More detailed reporting post-MVP a big value prop of other services (see "Altern
 
 ###Alternatives
 There are a couple of alternative services that do offer a way to enter an estimate:
+
 _Waffle.io_
 Users connect Waffle to their Github account and can see their issues displayed on a board.  The main advantage to Waffle is that it enables you to aggregate issues across projects, but it also includes a field where you can add a "size" to each issue, although there is no attribution to an indvidual for this or range of estimates.
 
@@ -40,7 +41,13 @@ Based on these use cases, the MVP functionality will include:
 - Dedicated field for developers (all people with access to the repo) to enter an estimate for the issue 
 - Attribution of each estimate to a developer
 - High, low and average estimate data for each issue and the project
-- Basic high level reporting on issue estimates vs completion times
+- Basic roll-up of average estimates in the project view
+
+Enhancements might include:
+- Reporting tools to compare estimates to actual dev times (based on PR opening, self-reported time to complete before PR created)
+- Speed/accuracy analysis by participant
+- Reporting on estimates across multiple projects and time to complete for each participant
+- Addition of this information to the Google API
 
 Detailed issues corresponding to this functionality can be found in [this project](https://github.com/eleanorstrib/sample_feature/projects/2).
 
