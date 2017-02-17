@@ -3,7 +3,7 @@
 ####Overview
 This repo demonstrates how I would approach adding a new feature as a product manager: selecting a feature to add to an existing product and articulating why it needs to be enhanced, determining a solution and creating tasks for developers to make the idea a reality.
 
-Detailed issues corresponding to this functionality can be found in [this project](https://github.com/eleanorstrib/sample_feature/projects/2).
+Detailed issues and wireframes corresponding to the feature enhancement described below can be found in [this project](https://github.com/eleanorstrib/sample_feature/projects/2).
 
 The product I'll use for this demo is Github, which we're conveniently looking at right now.
 
