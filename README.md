@@ -44,7 +44,7 @@ Based on these use cases, the MVP functionality will include:
 - Dedicated field for developers (all people with access to the repo) to enter an estimate for the issue 
 - Attribution of each estimate to a developer
 - High, low and average estimate data for each issue and the project
-- Basic roll-up of average estimates in the project view
+- Basic roll-up of average estimates in the project view (could be released after the above)
 
 ###Future enhancements
 - Reporting tools to compare estimates to actual dev times (based on PR opening, self-reported time to complete before PR created)
