@@ -42,6 +42,6 @@ Based on these use cases, the MVP functionality will include:
 - High, low and average estimate data for each issue and the project
 - Basic high level reporting on issue estimates vs completion times
 
-Issues corresponding to this functionality can be found in this project.
+Detailed issues corresponding to this functionality can be found in [this project](https://github.com/eleanorstrib/sample_feature/projects/2).
 
 
