@@ -13,11 +13,10 @@ While GitHub has made a lot of significant improvements in project management fe
 Overall, this feature update is targeted to users in small to midsize companies who are Github users and don't have the resources to maintain this information (which can change frequently) in two places.  Here are a couple of sample user stories, based on my experience. 
 
 #####User story: Dwayne, Project Manager
-Dwayne is a Project Manager in a 100 person tech company.  They use JIRA, but Dwayne and the Product Manager are really the one maintaining it, and most discussion and happens on Github, which means issue descriptions are most current there.  He wants to be able to see summaries of engineering estimates so that he can plan sprints effectively by not over or underloading the dev team, and ensure that all developers have reviewed the issues and feel comfortable enough with scope and requirements to weigh in on timing.  
+Dwayne is a Project Manager in a 100 person tech company.  He wants to be able to easily summarize engineering estimates to plan sprints and reallocate work across the team. The company does planning meetings where they estimate time on issues, but discussion often happens on Github, and he needs to keep issues and estimates updated in JIRA, which is used for project planning.
 
 #####User story: Aarti, Senior Software Engineer
-Aarti works in a small tech startup and often needs to step in to write issues, and keep the other three developers on track so that she can report back to the management team on their progress.  They can't really afford an enterprise solution like JIRA, and everyone loves Trello, but it's used more for roadmaps and longer term planning than for projects in flight, since most issue creation, version control and revisions are done by developers in Github.  
-
+Aarti works in a small tech startup and often needs to get updated engineering estimates in order to report back to management, but when engineers write (and sometimes update) their estimates in the comments, it's very time consuming for her to review comments and figure out what estimates everyone made, then tally them up for the project or remaining "TO DOs".    
 
 ###Business case and measurement
 This feature is likely not a huge revenue driver in the near term, but it fulfills an important strategic objective: making Github a stickier platform with higher switching costs.  
