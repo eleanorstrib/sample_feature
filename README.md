@@ -49,7 +49,7 @@ Based on these use cases, the MVP functionality will include:
 - Reporting tools to compare estimates to actual dev times (based on PR opening, self-reported time to complete before PR created)
 - Speed/accuracy analysis by participant
 - Reporting on estimates across multiple projects and time to complete for each participant
-- Addition of this information to the Google API
+- Addition of this information to the Github API
 
 Detailed issues corresponding to this functionality can be found in [this project](https://github.com/eleanorstrib/sample_feature/projects/2).
 
